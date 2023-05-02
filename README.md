@@ -41,7 +41,8 @@ So, our model will be trained on a dataset of paper titles and abstracts and the
 Make sure to divide your dataset into 80% training, 10% validation, and 10% testing.
 
 Put each partition into a separate directory and add the MLTable file within each directory like in this image:
-<!--  -->
+![image](https://user-images.githubusercontent.com/56788883/235770822-69609f97-30fd-4ad4-8787-8dfed5545a59.png)
+
 
 Where the MLTable file is:
 ``` yaml
@@ -72,7 +73,8 @@ my_validation_data_input = Input(type=AssetTypes.MLTABLE, path=validation_mltabl
 ```
 
 ## 3. Configure the AutoML NLP Text Classification Multilabel training job
-<!--  -->
+![image](https://user-images.githubusercontent.com/56788883/235770892-c8028031-12a0-4464-81a7-360c38ec8e29.png)
+
 Now, we want to create or get an existing Azure Machine Learning compute target. The compute target is used for training machine learning models and can be thought of as a set of virtual machines that run in parallel to speed up the training process.
 ``` python
 from azure.ai.ml.entities import AmlCompute
