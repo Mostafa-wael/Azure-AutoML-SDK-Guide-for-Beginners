@@ -41,6 +41,7 @@ So, our model will be trained on a dataset of paper titles and abstracts and the
 Make sure to divide your dataset into 80% training, 10% validation, and 10% testing.
 
 Put each partition into a separate directory and add the MLTable file within each directory like in this image:
+
 ![image](https://user-images.githubusercontent.com/56788883/235770822-69609f97-30fd-4ad4-8787-8dfed5545a59.png)
 
 
