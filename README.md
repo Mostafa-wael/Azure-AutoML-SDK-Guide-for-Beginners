@@ -1,1 +1,4 @@
 # Multilabel-classification-with-text-data-using-Azure-AutoML-SDK
+Welcome to this guide on how to run your first AutoML project on Azure using the Python SDK! In this tutorial, we’ll be focusing on multilabel classification with text data using AutoML NLP. AutoML, or automated machine learning, is a rapidly growing field that enables developers to create machine learning models with minimal effort and technical expertise. With the help of the Azure platform and Python SDK, we’ll be exploring how to build a multilabel classification model using AutoML NLP. We will be woring [arXiv Paper Abstracts](https://www.kaggle.com/datasets/spsayakpaul/arxiv-paper-abstracts) famous dataset. 
+
+So, let’s get started and learn how to leverage the power of AutoML to build robust machine-learning models quickly and easily.
